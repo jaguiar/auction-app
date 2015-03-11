@@ -48,6 +48,7 @@ sbt run
    * The bid values can only be digits (and is an Int, Long not supported at the moment ;))
 
 ```
+
 ## There are two versions available for the algorithm
     * The first one is based on objects and is accessible with org.yaourtcorp.auction.AuctionApplicationWithObjectVersion#main method
     * The second one is based on tuples and set and is accessible with org.yaourtcorp.auction.AuctionApplicationWithPoorMapVersion#main method
@@ -74,11 +75,11 @@ Prenons en considération un système d’enchères en un tour au second prix.
 * Considérons 5 acheteurs potentiels (A, B, C, D, E) compétitant pour l'aquisition d'un objet dont le prix de réserve a été établi à 100 euros.
      
 * Les acheteurs enchérissent comme suit :
-** A : 2 enchères de 110 et 130 euros
-** B : 0 enchère
-** C : 1 enchère de 125 euros
-** D : 3 enchères de 105, 115 et 90 euros
-** E : 3 enchères de 132, 135 et 140 euros
+  * A : 2 enchères de 110 et 130 euros
+  * B : 0 enchère
+  * C : 1 enchère de 125 euros
+  * D : 3 enchères de 105, 115 et 90 euros
+  * E : 3 enchères de 132, 135 et 140 euros
        
 * L'acheteur E remporte les enchères et devra s'aquitter de 130 euros pour obtenir l'objet mis en vente.
         
